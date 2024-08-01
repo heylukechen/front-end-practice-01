@@ -31,18 +31,18 @@ function App() {
   }, []);
 
   return (
-    <div className="majorBody">
-      <div className="mainBody">
-        <h1>{articleTitle}</h1>
-        <hr className="lineYellow" />
+    <div className="flex">
+      <div className="flex flex-col gap-4 mr-10">
+        <h1 className="">{articleTitle}</h1>
+        <hr className="bg-yellow-300 h-3 border-none" />
         <div
-          className="content"
+          className="flex flex-col"
           dangerouslySetInnerHTML={{ __html: articleBodyContent }}
         />{" "}
       </div>
-      <div className="card">
+      <div className="sticky top-2 self-start">
         <h3>Introduction</h3>
-        <hr className="line" />
+        <hr className="bg-slate-500 h-0.5 border-none" />
         <div
           className="tableOfContent"
           dangerouslySetInnerHTML={{ __html: tableOfContent }}
