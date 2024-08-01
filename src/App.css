@@ -5,6 +5,11 @@
   text-align: left;
 }
 
+#bodyContent {
+  display: flex;
+  gap: 2rem;
+
+}
 
 .tableOfContent > ul {
   list-style-type: none;
