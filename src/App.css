@@ -7,17 +7,20 @@
 
 #bodyContent {
   display: flex;
-  gap: 2rem;
-
+  gap: 2.5rem;
 }
 
 .tableOfContent > ul {
   list-style-type: none;
   line-height: 2rem;
+  font-size: 0.8125rem;
+  line-height: 280%; /* 2.275rem */
+  letter-spacing: 0.01625rem;
   /* color: #8E8E8E; */
   padding-left: 0;
+  font-weight: 500;
 }
 
 .tableOfContent > ul > li:first-of-type {
-  font-weight: 700;
+  font-weight: 900;
 }

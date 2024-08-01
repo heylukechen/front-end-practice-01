@@ -38,7 +38,7 @@ function App() {
         <h1 className="mb-12">{articleTitle}</h1>
         <hr className="bg-yellow-300 h-12 border-none mb-12" />
         <div
-          className="flex flex-col pr-64" id="bodyContent"
+          className="flex flex-col pr-36" id="bodyContent"
           dangerouslySetInnerHTML={{ __html: articleBodyContent }}
         />{" "}
       </div>
