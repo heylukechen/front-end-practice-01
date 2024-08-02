@@ -7,7 +7,12 @@
 
 #bodyContent {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
+}
+
+#bodyContent > ul {
+  list-style-type: circle;
+  padding-left: 1rem;
 }
 
 .tableOfContent > ul {
