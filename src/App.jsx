@@ -42,7 +42,7 @@ function App() {
           dangerouslySetInnerHTML={{ __html: articleBodyContent }}
         />{" "}
       </div>
-      <div className="sticky top-2 self-start">
+      <div className="sticky top-24 self-start">
         <h3 className="mb-16">Introduction</h3>
         <hr className="bg-slate-500 h-0.5 border-none" />
         <div
